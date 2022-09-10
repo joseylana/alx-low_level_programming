@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- *main- This prints using puts 
+ *main - This prints using puts 
  *function
  *Betty style is weird
- *
  */
 int main(void)
 {
