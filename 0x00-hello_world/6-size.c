@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - This prints size of datatypes
- *return - 0 
-*/
+ *return - 0 if successful 
+ */
 int main(void)
 {
 int charSize = sizeof(char);
