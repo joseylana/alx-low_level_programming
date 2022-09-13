@@ -1,15 +1,15 @@
-#include <stdio.h>
-#include <unistd.h>
+#include "main.h"
 /**
- * _putchar - writes the character c to std out.
- * @c: the character to print
- * Return: 1 on success.
- * on error, -1
+ * main - prints _putchar
+ * Return: 0 when success 
  */
-int main(){
-printf(_putchar);
-}
-int _putchar(char c)
+int main(void){
+char printPutchar[] = "_putchar";
+int p;
+for(p = 0; p < 8; p++)
 {
-  return (write(1, &c, 1));
+_putchar(printPuchar[p]);
+}
+_putchar('\n');
+return (0);
 }
